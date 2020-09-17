@@ -1,6 +1,6 @@
 '''
 Write a function that takes as inputs the a,b and c coefficients of a quadratic equation
-of the form ax^2 + bc + c = 0 and calculates and prints the roots. Round the output to the nearest hundredth  
+of the form ax^2 + bx + c = 0 and calculates and prints the roots. Round the output to the nearest hundredth  
 Otherwise, if there are no roots, print 'Has no solution'
 
 Recall: The quadratic formula https://en.wikipedia.org/wiki/Quadratic_formula
