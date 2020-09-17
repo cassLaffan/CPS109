@@ -5,13 +5,13 @@
 # It has, much like a list, indecies at each letter starting at 0.
 
 # Let's assign our string to a variable first so we can manipulate it.
-str = "This is a string!"
+myString = "This is a string!"
 
 # Let's print it off to be sure.
-print(str)
+print(myString)
 
 # Next, let's chop it up...
-newStr = str[1:5]
+newStr = myString[1:5]
 # Let's note now that the first side of the [a:b] slide of a string is inclusive, so the h will be kept.
 # However, the b part of the slide is not included. It is everything before index 5 in this case.
 
