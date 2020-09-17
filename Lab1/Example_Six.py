@@ -13,7 +13,7 @@ print(myString)
 # Next, let's chop it up...
 newStr = myString[1:5]
 # Let's note now that the first side of the [a:b] slide of a string is inclusive, so the h will be kept.
-# However, the b part of the slide is not included. It is everything before index 5 in this case.
+# However, the b part of the slice is not included. It is everything before index 5 in this case.
 
 # Finally, let's print off our new string.
 print(newStr)
