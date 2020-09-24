@@ -1,0 +1,4 @@
+Problem of the week:
+
+Write a short program that prompts the user for a number until they type -1.
+Then, print the sum of all of their numbers to the screen.

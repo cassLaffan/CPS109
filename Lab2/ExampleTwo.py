@@ -13,7 +13,4 @@ if __name__ == "__main__":
 
     for i in strOne:
         for j in strTwo:
-            # One more handy thing to notice: look at the end argument I've
-            # put in this folder. What's that do? Well, it takes out the new line
-            # from our print statement so the mess of gibberish prints all on the same line.
             print(i + j, end = '')
