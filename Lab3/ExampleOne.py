@@ -15,7 +15,7 @@ def check_every_item(my_list, new_num):
     while i < len(my_list):
         if my_list[i] == new_num:
             # Lists, unlike strings, can be modified!
-            # So we just add new items to it.
+            # So we just add new items to
             ind_list.append(i)
         i+=1
 
