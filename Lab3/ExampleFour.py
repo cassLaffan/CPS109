@@ -14,6 +14,11 @@ if __name__ == "__main__":
     epsilon = 0.001
     error = guess ** root - num
 
+    # So for those who are confused by this (I ripped it out of the p. 33 in the textbook)
+    # Think of this while loop like a pendulum, with the root specified above
+    # as the centre. The program will swing back and forth past the real root,
+    # adjusting its swing, until eventually it lands approximately in the centre.
+    # (On the root).
     while abs(error) > epsilon :
         if error < 0 :
             lo = guess
