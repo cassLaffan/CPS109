@@ -15,6 +15,6 @@ if __name__ == "__main__":
             print(bin(my_input)[2:])
         else:
             print("This should be done in C.") # Ask me why lol
-            # Hint: Python doesn't have much of a notion of signed vs. unsigned ints.
+            # Hint: Python doesn't 1have much of a notion of signed vs. unsigned ints.
 
     print("Goodbye!")
