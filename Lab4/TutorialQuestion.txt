@@ -1,0 +1,34 @@
+```
+Write a short program (using functions) that will take a list of strings
+and print them off in a "stair case" pattern. The length of the list and 
+the strings are both accepted as user input. Have the prompt loop until the 
+user enters -1 as their list length.
+
+Here is an example:
+
+>>> How many words are in this list?
+>>> 5
+>>> Enter word 1: The
+>>> Enter word 2: black
+>>> Enter word 3: cat
+>>> Enter word 4: went
+>>> Enter word 5: meow.
+
+The
+    black
+        cat
+            went
+                meow.
+
+>>> How many words are in this list?
+>>> 2
+>>> Enter word 1: Hello
+>>> Enter word 2: world!
+
+Hello
+    World!
+
+>>> How many words are in this list?
+>>> -1
+>>> Goodbye!
+```
