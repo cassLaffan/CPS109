@@ -4,7 +4,7 @@ def factorial(num):
    if(num < 1):
        return 1
    else:
-       new_num = num * factorial( num - 1 )  # recursive call
+       new_num = num * factorial(num - 1)
        return new_num
 
 if __name__ == "__main__":
