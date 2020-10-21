@@ -11,7 +11,7 @@ if __name__ == "__main__":
     hi = max(num, 1.0)
 
     guess = (lo + hi) / 2
-    epsilon = 0.001
+    e = 0.0001
     error = guess ** root - num
 
     # So for those who are confused by this (I ripped it out of the p. 33 in the textbook)
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # as the centre. The program will swing back and forth past the real root,
     # adjusting its swing, until eventually it lands approximately in the centre.
     # (On the root).
-    while abs(error) > epsilon :
+    while abs(error) > e :
         if error < 0 :
             lo = guess
         else :
