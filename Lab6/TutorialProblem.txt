@@ -1,0 +1,7 @@
+```
+Write a function that takes two tuples as arguments.
+Each tuple contains as its first element an integer and the second a string.
+Compare the two tuples: whichever has the bigger first element has its
+string written to a file. Make sure to open and close the file.
+
+```
