@@ -11,4 +11,5 @@ def file_peak():
     return (num_lines, file_contents)
 
 if __name__ == "__main__":
-    print(file_peak())
+    t = file_peak()
+    print(t)
