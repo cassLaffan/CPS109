@@ -16,5 +16,5 @@ def count_brackets(brackets):
     return count == 0
 
 if __name__ == "__main__":
-    our_brackets = "}{{{{}"
+    our_brackets = "{}}}"
     print(count_brackets(our_brackets))

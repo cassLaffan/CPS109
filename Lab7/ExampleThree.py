@@ -24,7 +24,6 @@ class car:
 def compare_price(car_one, car_two):
     return car_one.price == car_two.price
 
-
 if __name__ == "__main__":
     our_car = car("Honda Civic", "Blue", 12000)
     print("Our car is a: " + our_car.make)
@@ -36,5 +35,8 @@ if __name__ == "__main__":
     Well, python actuall reads it as: age_price(our_car) (sorta).
     The "self" is the current object we're dealing with!
     '''
+    our_car.age_price()
+    print("It now costs: " + str(our_car.price))
+
     our_car.age_price()
     print("It now costs: " + str(our_car.price))
