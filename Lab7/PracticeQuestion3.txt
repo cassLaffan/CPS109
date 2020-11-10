@@ -1,0 +1,6 @@
+'''
+Continuing from PracticeQuestion2.txt:
+
+In a new file, write some tests that check to ensure
+that the output from check_employee is correct.
+'''

@@ -1,0 +1,10 @@
+'''
+Write a recursive function that recursively produces
+the power set for a number. In mathematics, the power 
+set of a set S is the set of all subsets of S, including
+the empty set and S itself. (Your function should return
+a list of lists).
+
+def power_set(num):
+    # your code goes here
+'''

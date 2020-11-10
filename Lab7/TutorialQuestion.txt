@@ -1,0 +1,13 @@
+'''
+Define a function that takes a list of numbers and
+returns the sum of every other element. For example:
+
+your_function([1, 2]) = 1
+your_function([1, 2, 3]) = 4
+self.assertEqual(your_function([1, 5, 2, 7, 20]), 23)
+
+Then, in a seperate file, write a set of tests for it
+and make sure they all pass. Ensure everything is formatted
+correctly.
+
+'''
