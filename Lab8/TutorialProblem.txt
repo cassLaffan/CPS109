@@ -1,0 +1,4 @@
+'''
+Write a function that makes and returns a list of random letters.
+Then, in a seperate file, write tests for the function's output.
+'''
