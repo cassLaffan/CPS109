@@ -15,6 +15,13 @@ for value in range(1, 11):
         nums.append(Card(value, colour))
 
 See? It makes an object then appends it to the list!
+
+face = [Card(10, colour) for value in range(0, 3) for colour in colours]
+can be written as:
+
+for value in range(0, 3):
+    for colour in colours:
+        face.append(Card(10, colour))
 '''
 def createDeck():
     colours = ['heart', 'diamonds', 'spades', 'clubs']
