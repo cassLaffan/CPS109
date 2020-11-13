@@ -17,3 +17,5 @@ if __name__ == "__main__":
         for i in range(our_dimension):
             our_matrix[-1].append(random.randint(-10, 10))
         print(our_matrix[-1])
+
+    print(our_matrix)
