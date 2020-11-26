@@ -1,0 +1,11 @@
+'''
+Write a class that has one member variable: it is a dictionary
+that contains a series of names as their keys (like we did in the
+example).
+
+Declare an object of this class type, and then recursively 
+populate its dictionary.
+
+This is essentially both examples merged together :) You are
+encouraged to look at the examples.
+'''

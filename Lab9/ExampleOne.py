@@ -13,6 +13,7 @@ def recurse_dict(name_list, re_dict):
 
 if __name__ == "__main__":
     user_list = []
+    
     for i in range(1, 10):
         user_list.append(input("Please enter a name: "))
 
