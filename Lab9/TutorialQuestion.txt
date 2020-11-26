@@ -1,11 +1,10 @@
 '''
-Write a class that has one member variable: it is a dictionary
-that contains a series of names as their keys (like we did in the
-example).
+Write a class with one member variable: a 2x2 matrix.
+This means that it's a list with 2 lists as elements, each with two
+float or integer as elements.
 
-Declare an object of this class type, and then recursively 
-populate its dictionary.
+Then, print it off in the format:
 
-This is essentially both examples merged together :) You are
-encouraged to look at the examples.
+|a  b|
+|c  d|
 '''
