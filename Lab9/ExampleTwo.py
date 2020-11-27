@@ -2,11 +2,14 @@ import random
 
 def recurse_fruit(fruits, fruity_dict):
     
-    if len(fruits) == 1:
+    if len(fruits) == 0:
+        return
+    elif len(fruits) == 1:
         fruity_dict[fruits[0]] = random.randint(0, 20)
     else:
-        fruity_dict[fruits[0]] = random.randint(0, 20)
-        recurse_fruit(fruits[1:], fruity_dict)
+        temp = int(len(fruits)/2) - 1
+        recurse_fruit(fruits[:temp], fruity_dict)
+        recurse_fruit(fruits[temp:], fruity_dict)
     
     return fruity_dict
 
