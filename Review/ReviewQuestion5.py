@@ -12,7 +12,13 @@ def q7(s) :
     q7('racecar') is True
     q7('blue') is False
     '''
-    pass
+    if len(s) == 1 or len(s) == 0:
+        return True
+    elif len(s) == 2:
+        return s[0] == s[1]
+    else:
+        truth = s[0] == s[-1]
+        return truth and q7(s[1:-1])
 
 class myTests(unittest.TestCase):
     def test1(self):

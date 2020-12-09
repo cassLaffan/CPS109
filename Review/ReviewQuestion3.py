@@ -14,7 +14,19 @@ def q5(sentence) :
     q5('Red@Dragon....ca is great!')
     should return ['reddragonca', 'is', 'great']
     '''
-    pass
+    word_list = sentence.split()
+    new_list = []
+    alpha_numeric = "0123456789abcdefghijklmnopqrstuvwxyz"
+
+    for word in word_list:
+        word = word.lower()
+        new_string = ""
+        for letter in word:
+            if letter in alpha_numeric:
+                new_string += letter
+        new_list.append(new_string)
+
+    return new_list
 
 
 class myTests(unittest.TestCase):

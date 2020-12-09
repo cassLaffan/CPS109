@@ -1,6 +1,6 @@
 import unittest
 
-class Rectangle(object) :
+class Rectangle(object):
     '''This class represents a rectangle in the x-y coordincate system
     where the edges of the rectangle are aligned with the x- and y- axes.
     A Rectangle object has data attributes lowerleft and upperright,
@@ -13,22 +13,24 @@ class Rectangle(object) :
         '''
         self.lowerleft = (x1, y1)
         self.upperright = (x2, y2)
+
     def width(self) :
         '''Returns the width of the rectangle
         '''
-        pass
+        return self.upperright[0] - self.lowerleft[0]
+
     def height(self) :
         '''Returns the height of the rectangle
         '''
-        pass
+        return self.upperright[1] - self.lowerleft[1]
     
     def area(self) :
         '''Returns the area of the rectangle'''
-        pass
+        return self.height() * self.width()
 
     def __eq__(self, other) :
         '''Returns true if the two rectangles have equal area'''
-        pass
+        return self.area() == other.area()
 
 class myTests(unittest.TestCase):
     def test1(self):
