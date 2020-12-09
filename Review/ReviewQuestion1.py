@@ -7,7 +7,12 @@ def q3(x, epsilon) :
     abs(guess**2 - x) < epsilon using Heron's algorithm, where 
     start with guess = x / 2 and improve guess to be (guess + x / guess) / 2
     '''
-    pass
+    guess = x / 2
+
+    while(not(abs(guess**2 - x) < epsilon)):
+        guess = (guess + x / guess) / 2
+
+    return guess
 
 class myTests(unittest.TestCase):
     def test0(self):
