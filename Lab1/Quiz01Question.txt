@@ -5,7 +5,16 @@ Otherwise, if there are no roots, print 'Has no solution'
 
 Recall: The quadratic formula https://en.wikipedia.org/wiki/Quadratic_formula
 Recall: You can check if a quadratic's roots do not exist by checking if the discriminant (the part under the square root sign) is negative.
+Recall: You can put strings and floats together by casting using the following syntax: "string1" + str(float1) + "string2" + ...
+
+Example input/outputs:
+
+Input: a = 4, b = 6, c = 2
+Output: The roots are -0.5 and -1.0
+
+Input: a = 4, b = 8, c = 4
+Output: The root is -1.0
+
+Input: a = 2, b = 2, c = 2
+Output: Has no solution
 '''
-
-
-  
