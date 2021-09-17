@@ -11,7 +11,8 @@ def get_value(value):
     return not value
 
 # Finally, we call the function and print its value
-print(get_value(False))
+x = get_value(False)
+print(x)
 
 #print(value) #this does not work because we cannot access the 'value' paramater variable in the get_value function from this scope.
 
