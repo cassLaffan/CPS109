@@ -30,6 +30,9 @@ if __name__ == "__main__":
     # and its contents are seperated with commas
     this_list = ["this", "is", "our", "list"]
 
+    for i in range(len(this_list)):
+        print(i)
+
     # Now we call the functions
     loop_over_string(this_string)
     loop_over_list(this_list)

@@ -1,7 +1,7 @@
 Write a program which asks the user a series of questions.
 What these questions ask is up to you.
 
-Store these answers in a list, then loop through the collection of
+Store these answers in a list, then loop backwards through the collection of
 answers. These answers should be printed to the screen.
 
 Example:
@@ -13,6 +13,6 @@ Trenton
 >>>Why are you at Ryerson?
 Good question
 
->>>Cassandra
->>>Trenton
 >>>Good question
+>>>Trenton
+>>>Cassandra
