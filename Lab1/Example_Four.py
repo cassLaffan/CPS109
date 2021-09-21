@@ -13,6 +13,10 @@ def get_value(value):
 # Finally, we call the function and print its value
 x = get_value(False)
 print(x)
+u = get_value(True)
+print(u)
+w = get_value(False)
+print(w)
 
 #print(value) #this does not work because we cannot access the 'value' paramater variable in the get_value function from this scope.
 
