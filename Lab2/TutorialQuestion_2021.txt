@@ -16,3 +16,21 @@ Good question
 >>>Good question
 >>>Trenton
 >>>Cassandra
+
+*** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
+Write a program that does the above, but then returns uWu-ified versions of the responses.
+To uWu-ify a string, replace all r's and l's with w's.
+Hint: Use Python's string.replace() method (https://python-reference.readthedocs.io/en/latest/docs/str/replace.html)
+
+Example:
+
+>>> What is your name?
+Chris
+>>> Where did you do your undergrad?
+University of Toronto
+>>> Why are you at Ryerson?
+To study really interesting problems
+
+>>> To study weawwy intewesting pwobwems
+>>> Univewsity of Towonto
+>>> Chwis
