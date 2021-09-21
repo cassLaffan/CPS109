@@ -33,4 +33,8 @@ To study really interesting problems
 
 >>> To study weawwy intewesting pwobwems
 >>> Univewsity of Towonto
+<<<<<<< HEAD
 >>> Chwis
+=======
+>>> Chwis
+>>>>>>> 78f9b64a520594b9e07ecefc94711401c2826ca8
