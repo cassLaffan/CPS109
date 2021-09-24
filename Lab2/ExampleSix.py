@@ -11,4 +11,6 @@ if __name__ == "__main__":
     # just create a new string, instead of editing the old one.
     while (inp != "end"):
         inp = str(input("Please enter a word:\n"))
+        if (inp == "end"):
+            break
         make_new_string(inp)

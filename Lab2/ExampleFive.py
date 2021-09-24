@@ -10,5 +10,4 @@ if __name__ == "__main__":
         # being a jerk and entering something that isn't a number.
         # Don't worry, we'll get to that later.
         x = int(input("Please enter a number:\n"))
-    
     print("Thank you!")

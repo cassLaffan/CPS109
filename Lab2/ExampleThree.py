@@ -3,7 +3,7 @@
 # For loops can work anywhere in a program so long as they're correctly written
 def for_loop_here(num):
     x = 1
-    # range: [0, 5)
+    # range: [0, num) == [0, num - 1]
     for i in range(num):
         # x = x + i
         x+=i

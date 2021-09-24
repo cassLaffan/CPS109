@@ -13,4 +13,4 @@ if __name__ == "__main__":
 
     for i in str_one:
         for j in str_two:
-            print(i + j, end = '')
+            print(i + j, end = '\t')
