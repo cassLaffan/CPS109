@@ -4,5 +4,6 @@ if __name__ == "__main__":
     user_string = input("Please enter a string: ")
 
     # This program simply iterates through any given string.
-    for i in user_string:
-        print(i + " ", end = "")
+    for i in range(len(user_string)):
+        print("Current index: ", i)
+        print(user_string[i], end=" ")

@@ -1,5 +1,5 @@
 '''
-Write a program that sorts this list of integers:
+Write a program that sorts this list of integers (smallest to largest):
 
 [2, 6, 1, -1, 55, 12, -100, 0]
 '''
