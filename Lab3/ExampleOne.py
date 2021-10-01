@@ -20,7 +20,6 @@ def check_every_item(my_list, new_num):
         # i = i + 1
         i+=1
 
-
     return ind_list
 
 if __name__ == "__main__":
