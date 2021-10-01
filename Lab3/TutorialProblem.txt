@@ -1,19 +1,20 @@
 '''
-Write a program that sorts this list of integers (smallest to largest):
+Write a program that sorts a list of letters backwards (from Z to A). For example:
 
-[2, 6, 1, -1, 55, 12, -100, 0]
+[E, R, W, P, Q, G, R, S, I]
 
-Output: [-100, -1, 0, 1, 2, 6, 12, 55]
+Output: [W, S, R, R, Q, P, I, G, E]
 
 *** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
 
 Sun Baby has kidnapped all the teletubbies and scattered them in the list of integers (for what nefarious purpose? - we can only speculate!)
 Your vital mission is to relocate the captured creatures, moving them to a new list called Azkaban (a wonderful facility with a seaside view)
-However, the teletubbies are prone to escaping, so you must ensure that in the Azkaban list each teletubby is flanked by a "special friend" called a dementor on each side (represented by the string: "dementor")
+However, the teletubbies are prone to escaping, so you must ensure that in the Azkaban list each teletubby is flanked by a
+"special friend" called a dementor on each side (represented by the string: "dementor")
 
 And don't forget to sort the original list of integers - lest ye incur the wrath of Sun Baby!
 
-Input: [2, "Tinky Winky", 6, 1, "Dipsy", "Laa-Laa", -1, 55, 12, -100, 0, "Po"]
+Input: [B, "Tinky Winky", R, E, "Dipsy", "Laa-Laa", F, P, Q, A, L, "Po"]
 
 Output: >>> print(integer_list) # Or whatever your sorted integer list is called
 >>> [-100, -1, 0, 1, 2, 6, 12, 55]
