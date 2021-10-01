@@ -17,7 +17,9 @@ def check_every_item(my_list, new_num):
             # Lists, unlike strings, can be modified!
             # So we just add new items to
             ind_list.append(i)
+        # i = i + 1
         i+=1
+
 
     return ind_list
 
@@ -27,10 +29,10 @@ if __name__ == "__main__":
     # dynamic lists made from user input.
 
     # The numbers are intentional
+    # Indicies are 0 - 7, where 7 is the length of the list minus
     new_list = [2, 5, 1, 6, 2, 82, -10, 2]
 
     index_list = check_every_item(new_list, 2)
-
     # The output for this program will be [0, 4, 7]
     # Meaning we had to iterate through every single element to find every 2.
     print(index_list)
