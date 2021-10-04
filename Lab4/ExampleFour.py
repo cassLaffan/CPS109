@@ -1,5 +1,5 @@
 # This example is just to remind you guys how functions are called in Python. 
-# Except there's a twist! Notice those crazu equals and their values?
+# Except there's a twist! Notice those crazy equals and their values?
 def backward_string(my_string="Heck"):
     new_string = my_string[::-1]
     return new_string

@@ -1,0 +1,20 @@
+'''
+Write a FUNCTION that takes an ordered list of integers and a number as arguments.
+This function should then use binary search to find where it needs to
+insert the number.
+
+The main program should loop and keep adding numbers using this function
+until the user wants to exit.
+
+Example (assume our initial list is [1, 4, 6, 9]):
+
+>>>What number would you like to insert into the list?
+>>>5
+[1, 4, 5, 6, 9]
+>>>What number would you like to insert into the list?
+>>>-1
+[-1, 1, 4, 5, 6, 9]
+>>>What number would you like to insert into the list?
+>>>Bye
+Goodbye!
+'''
