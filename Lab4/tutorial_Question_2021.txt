@@ -17,4 +17,33 @@ Example (assume our initial list is [1, 4, 6, 9]):
 >>>What number would you like to insert into the list?
 >>>Bye
 Goodbye!
+
+
+*** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
+
+The rhythmical stomping of their padded feet reverberates through the castle's walls.
+Peering through the crenellations, you see the great mass of creatures halt before the gate.
+Each teletubby's television stomach broadcasts grotesque promises of what they'll do if they get in.
+They want revenge for the imprisonment of their leaders.
+You must stop them.
+You are the last hope.
+
+For the above program, if at any time the user tries to add a teletubby to the list, you must print the sacred words:
+"abscede ab hoc mundo [teletubby]" (replacing [teletubby] with the name of the specific sub-species of teletubby)
+
+You must then proceed with your list insertion procedure as if nothing has happened, lest your troops sense your fear.
+When you finally must flee, if you have exorcised at least 1 teletubby, inspire your troops to fight valiantly with a noble parting message.
+
+Recall: The teletubbies are: ["Tinky Winky", "Dipsy", "Laa-Laa", "Po"]
+
+Example (assume our initial list is [1, 4, 6, 9])
+>>> What number would you like to insert into the list?
+>>> 5
+[1, 4, 5, 6, 9]
+>>> What number would you like to insert into the list?
+>>> Po
+abscede ab hoc mundo Po
+>>> What number would you like to insert into the list?
+>>> Bye
+Do not go gentle into that good night...
 '''
