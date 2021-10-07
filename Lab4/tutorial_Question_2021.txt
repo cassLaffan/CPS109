@@ -1,20 +1,25 @@
 '''
-Write a FUNCTION that takes an ordered list of integers and a number as arguments.
-This function should then use binary search to find where it needs to
-insert the number.
+Write a FUNCTION that takes an ordered list of LISTS and a new list as arguments.
+The lists within this list contain integers.
 
-The main program should loop and keep adding numbers using this function
+This list of LISTS is ordered from shortest list to longest. If two lists are of
+the same length, they're ordered from lowest starting number to highest.
+
+This FUNCTION should use binary search to find where it needs to
+insert the new list.
+
+The main program should loop and keep adding lists using this function
 until the user wants to exit.
 
-Example (assume our initial list is [1, 4, 6, 9]):
+Example (assume our initial list is [[], [10, 4], [1, 4, 6, 9], [-10, 4, 7, 100, 101]]):
 
->>>What number would you like to insert into the list?
->>>5
-[1, 4, 5, 6, 9]
->>>What number would you like to insert into the list?
->>>-1
-[-1, 1, 4, 5, 6, 9]
->>>What number would you like to insert into the list?
+>>>What list would you like to insert into the list?
+>>> 1, 5, 6
+[[], [10, 4], [1, 5, 6], [1, 4, 6, 9], [-10, 4, 7, 100, 101]]
+>>>What list would you like to insert into the list?
+>>>1, 2
+[[], [1, 2], [10, 4], [1, 5, 6], [1, 4, 6, 9], [-10, 4, 7, 100, 101]]
+>>>What list would you like to insert into the list?
 >>>Bye
 Goodbye!
 
