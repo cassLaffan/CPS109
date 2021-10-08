@@ -10,13 +10,12 @@ def multiply_string(string_1, mulitplier):
 
 if __name__ == "__main__":
     inp = "temp"
-    
+
     while inp != "":
         inp = input("Enter a string to reverse:\n")
-        if(inp == ""):
-            break
-        i = int(input("How many times should it be repeated?\n"))
-        print(backward_string(inp))
-        print(multiply_string(inp, i))
+        if inp != "":
+            i = int(input("How many times should it be repeated?\n"))
+            print(backward_string(inp))
+            print(multiply_string(inp, i))
 
     print("Good bye")
