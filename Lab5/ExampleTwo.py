@@ -9,4 +9,4 @@ def factorial(num):
        return new_num
 
 if __name__ == "__main__":
-    print("{}! = {}".format(4, factorial(4)))
+    print("{}! = {}".format(10, factorial(10)))
