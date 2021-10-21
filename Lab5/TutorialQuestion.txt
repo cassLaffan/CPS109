@@ -1,17 +1,15 @@
 '''
-Write a RECURSIVE function that sorts this list of integers:
-
-Input: [2, 6, 1, -1, 55, 12, -100, 0]
-Output: [-100, -1, 0, 1, 2, 6, 12, 55]
-
-*** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
-
 After beating a hasty retreat from the tragic assault on CPS109 Castle, you hide in your underground bunker and prepare your counterattack.
-You, being the inventive students you are, create a new secret weapon - the Teletubby Demagnetizer 3000 (by shooting a teletubby with the demagnetizer, you are able to disrupt its signal with its leader - rendering it cuddly and harmless (envision holding a magnet to a CRT TV))
-As you emerge from your underground bunker, TD3000 in hand, you immediately realize your folly. While you were developing your technology, so too were the Teletubby Scientists...
-A grotesque mass of teletubbies, hastily sewn together at various points (which you dub a 'Teleteletubbytubby'), begins lumbering towards you. You try to shoot it with your TD3000, but the beam glances off, unable to affect a creature of such enormous girth.
+You, being the inventive students you are, create a new secret weapon - the Teletubby Demagnetizer 3000 (by shooting a teletubby with the
+demagnetizer, you are able to disrupt its signal with its leader - rendering it cuddly and harmless (envision holding a magnet to a CRT TV)).
+As you emerge from your underground bunker, TD3000 in hand, you immediately realize your folly. While you were developing your technology,
+so too were the Teletubby Scientists... A grotesque mass of teletubbies, hastily sewn together at various points (which you dub a
+'Teleteletubbytubby'), begins lumbering towards you. You try to shoot it with your TD3000, but the beam glances off, unable to affect
+a creature of such enormous girth.
 
-As all seems lost, suddenly, inspiration! You unsheathe your trusty Katana. If your TD3000 won't work on large targets, well, then you'll just have to separate them into smaller targets. You teleport behind it!
+As all seems lost, suddenly, inspiration! You unsheathe your trusty Katana. If your TD3000 won't work on large targets, well, then you'll
+just have to separate them into smaller targets. You teleport behind it!
+
 "Omae wa mou shindeiru!"
 "Nani?!?!?!"
 
