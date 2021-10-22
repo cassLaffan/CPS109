@@ -4,7 +4,7 @@ def print_recursively(num):
         return 0
     else:
         a = print_recursively(num - 1)
-        print("Now we are at ", num)
+        print("Now we are at ", a)
         return num
 
 if __name__ == "__main__":

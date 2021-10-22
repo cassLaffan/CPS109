@@ -1,4 +1,11 @@
 '''
+Write a RECURSIVE program that sorts this list of integers:
+
+[2, 6, 1, -1, 55, 12, -100, 0]
+
+Input: [2, 6, 1, -1, 55, 12, -100, 0]
+Output: [-100, -1, 0, 1, 2, 6, 12, 55]
+
 After beating a hasty retreat from the tragic assault on CPS109 Castle, you hide in your underground bunker and prepare your counterattack.
 You, being the inventive students you are, create a new secret weapon - the Teletubby Demagnetizer 3000 (by shooting a teletubby with the
 demagnetizer, you are able to disrupt its signal with its leader - rendering it cuddly and harmless (envision holding a magnet to a CRT TV)).
