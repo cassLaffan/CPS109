@@ -1,0 +1,19 @@
+'''
+Write an employee class. This class will contain three key pieces of data: employee name, employee number
+and employee position. Then, write a method which gives them a promotion, that changes their position.
+
+class employee:
+    def __init__(self, employee_name, employee_num, employee_pos):
+        # Your code goes here
+    
+    def promotion(self, new_position):
+        # Your code goes here.
+
+Then, write a function that checks to see if the name of an employee is the same as a different employee
+(so their name is the same but their employee number is different). This will not be a class method, but its
+own function. If they're the same name but different employee numbers, change the first employee number to the
+second employee number and return it.
+
+def check_employee(emp_one, emp_two):
+    # Your code here.
+'''
