@@ -1,12 +1,10 @@
 '''
-Continuing from PracticeQuestion1.txt:
-Write a function that checks to see if the name of an employee
-is the same as a different employee (so their name is the
-same but their employee number is different). This will not be a class
-method, but its own function. If they're the same name but different
-employee numbers, change the first employee number to the second employee
-number and return it.
+Write a function that takes a list of tuples,
+then returns the sum of all of their second index.
 
-def check_employee(emp_one, emp_two):
-    # Your code here.
+For example:
+[(5, 3, 1), (5, 9, 2)] => 12
+
+def tuple_add(L):
+    # Your code goes here
 '''

@@ -1,13 +1,7 @@
 '''
-Write an employee class. This class will contain
-three key pieces of data: employee name, employee number
-and employee position. Then, write a method which gives them
-a promotion, that changes their position.
+Write a function that opens a file and prints out
+every other line in the file. Be sure to close it!
 
-class employee:
-    def __init__(self, employee_name, employee_num, employee_pos):
-        # Your code goes here
-    
-    def promotion(self, new_position):
-        # Your code goes here.
+def read_every_other_line(filename):
+    # Your code here.
 '''
