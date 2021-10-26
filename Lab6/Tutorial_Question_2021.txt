@@ -58,7 +58,7 @@ Example Input main:
 if __name__ == "__main__":
     soldier_candidate_1 = employee("Aniki", 07141969, "Inspiration")
     soldier_candidate_2 = employee("Rick Astley", 02061966, "Motivational Speaker")
-    soldier_candidate_3 = employee("TinkyWinkyLover", 8008135, "Teletubby Sympathizer")
+    soldier_candidate_3 = employee("TinkyWinkyLover", 5318008, "Teletubby Sympathizer")
     print(soldier_candidate_1.employee_name, "is an", soldier_candidate_1.employee_pos)
     soldier_candidate_1.recruitment()
     print(soldier_candidate_1.employee_name, "is a", soldier_candidate_1.employee_pos)
