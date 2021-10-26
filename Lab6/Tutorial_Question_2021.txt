@@ -15,5 +15,52 @@ own function. If they're the same name but different employee numbers, change th
 second employee number and return it.
 
 def check_employee(emp_one, emp_two):
-    # Your code here.
+    # Your code goes here.
+
+Example Input/Output:
+>>> pretending_jim = employee("Dwight", 69, "Assistant to the Regional Manager")
+>>> scranton_strangler = employee("Toby", 13, "HR")
+>>> real_dwight = employee("Dwight", 42, "Assistant to the Regional Manager")
+>>> print('"Dwight"s employee number:', pretending_jim.employee_num)
+"Dwight"s employee number: 69
+>>> print('Should be None:', check_employee(pretending_jim, scranton_strangler))
+Should be None: None
+>>> print('"Dwight"s employee number:', check_employee(pretending_jim, real_dwight))
+"Dwight"s employee number: 42
+>>> print('"Dwight"s employee number:', pretending_jim.employee_num)
+"Dwight"s employee number: 42
+>>> print("Dwight's Position:", real_dwight.employee_pos)
+Dwight's Position: Assistant to the Regional Manager
+>>> real_dwight.promotion("Assistant Regional Manager")
+>>> print("Dwight's Position:", real_dwight.employee_pos)
+Dwight's Position: Assistant Regional Manager
+
+*** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
+
+I want YOU for Teletubby Destroyer army.
+
+Don't be fooled by their fluffy bodies and cute names, these creatures are highly dangerous and must be exorcised
+on sight. Their evil scientists have developed advanced brainwashing techniques, and soon the whole world will be
+tubby-fied, unless YOU act now. Call the recruitment function now to sign up.
+
+Looking for able-bodied persons, of any employee number, position, and name - but NO "Teletubby Sympathizers" allowed!
+
+
+Add a recruitment function to your employee class that performs the following behaviour:
+If an employee has a current employee position of anything except "Teletubby Sympathizer", promote them to "Soldier of Humankind"
+via the promotion function.
+However, if an employee is a "Teletubby Sympathizer", promote them to "Terminated". :)
+
+Example Input/Output:
+>>> soldier_candidate_1 = employee("Aniki", 07141969, "Inspiration")
+>>> soldier_candidate_2 = employee("Rick Astley", 02061966, "Motivational Speaker")
+>>> soldier_candidate_3 = employee("TinkyWinkyLover", 8008135, "Teletubby Sympathizer")
+>>> print(soldier_candidate_1.employee_name, "is an", soldier_candidate_1.employee_pos)
+Aniki is an Inspiration
+>>> soldier_candidate_1.recruitment()
+>>> print(soldier_candidate_1.employee_name, "is a", soldier_candidate_1.employee_pos)
+Aniki is a Soldier of Humankind
+>>> soldier_candidate_3.recruitment()
+>>> print(soldier_candidate_3.employee_name, "is", soldier_candidate_3.employee_pos)
+TinkyWinkyLover is Terminated
 '''
