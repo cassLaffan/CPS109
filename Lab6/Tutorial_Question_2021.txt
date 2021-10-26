@@ -17,22 +17,25 @@ second employee number and return it.
 def check_employee(emp_one, emp_two):
     # Your code goes here.
 
-Example Input/Output:
->>> pretending_jim = employee("Dwight", 69, "Assistant to the Regional Manager")
->>> scranton_strangler = employee("Toby", 13, "HR")
->>> real_dwight = employee("Dwight", 42, "Assistant to the Regional Manager")
->>> print('"Dwight"s employee number:', pretending_jim.employee_num)
+Example Input main:
+if __name__ == "__main__":
+    pretending_jim = employee("Dwight", 69, "Assistant to the Regional Manager")
+    scranton_strangler = employee("Toby", 13, "HR")
+    real_dwight = employee("Dwight", 42, "Assistant to the Regional Manager")
+    print('"Dwight"s employee number:', pretending_jim.employee_num)
+    print('Should be None:', check_employee(pretending_jim, scranton_strangler))
+    print('"Dwight"s employee number:', check_employee(pretending_jim, real_dwight))
+    print('"Dwight"s employee number:', pretending_jim.employee_num)
+    print("Dwight's Position:", real_dwight.employee_pos)
+    real_dwight.promotion("Assistant Regional Manager")
+    print("Dwight's Position:", real_dwight.employee_pos)
+
+Example Output:
 "Dwight"s employee number: 69
->>> print('Should be None:', check_employee(pretending_jim, scranton_strangler))
 Should be None: None
->>> print('"Dwight"s employee number:', check_employee(pretending_jim, real_dwight))
 "Dwight"s employee number: 42
->>> print('"Dwight"s employee number:', pretending_jim.employee_num)
 "Dwight"s employee number: 42
->>> print("Dwight's Position:", real_dwight.employee_pos)
 Dwight's Position: Assistant to the Regional Manager
->>> real_dwight.promotion("Assistant Regional Manager")
->>> print("Dwight's Position:", real_dwight.employee_pos)
 Dwight's Position: Assistant Regional Manager
 
 *** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
@@ -51,16 +54,19 @@ If an employee has a current employee position of anything except "Teletubby Sym
 via the promotion function.
 However, if an employee is a "Teletubby Sympathizer", promote them to "Terminated". :)
 
-Example Input/Output:
->>> soldier_candidate_1 = employee("Aniki", 07141969, "Inspiration")
->>> soldier_candidate_2 = employee("Rick Astley", 02061966, "Motivational Speaker")
->>> soldier_candidate_3 = employee("TinkyWinkyLover", 8008135, "Teletubby Sympathizer")
->>> print(soldier_candidate_1.employee_name, "is an", soldier_candidate_1.employee_pos)
+Example Input main:
+if __name__ == "__main__":
+    soldier_candidate_1 = employee("Aniki", 07141969, "Inspiration")
+    soldier_candidate_2 = employee("Rick Astley", 02061966, "Motivational Speaker")
+    soldier_candidate_3 = employee("TinkyWinkyLover", 8008135, "Teletubby Sympathizer")
+    print(soldier_candidate_1.employee_name, "is an", soldier_candidate_1.employee_pos)
+    soldier_candidate_1.recruitment()
+    print(soldier_candidate_1.employee_name, "is a", soldier_candidate_1.employee_pos)
+    soldier_candidate_3.recruitment()
+    print(soldier_candidate_3.employee_name, "is", soldier_candidate_3.employee_pos)
+
+Example Output:
 Aniki is an Inspiration
->>> soldier_candidate_1.recruitment()
->>> print(soldier_candidate_1.employee_name, "is a", soldier_candidate_1.employee_pos)
 Aniki is a Soldier of Humankind
->>> soldier_candidate_3.recruitment()
->>> print(soldier_candidate_3.employee_name, "is", soldier_candidate_3.employee_pos)
 TinkyWinkyLover is Terminated
 '''
