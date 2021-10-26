@@ -44,9 +44,9 @@ I want YOU for Teletubby Destroyer army.
 
 Don't be fooled by their fluffy bodies and cute names, these creatures are highly dangerous and must be exorcised
 on sight. Their evil scientists have developed advanced brainwashing techniques, and soon the whole world will be
-tubby-fied, unless YOU act now. Call the recruitment function now to sign up.
+tubby-fied, unless YOU act now. Call the .recruitment() function now to sign up.
 
-Looking for able-bodied persons, of any employee number, position, and name - but NO "Teletubby Sympathizers" allowed!
+Looking for able-bodied persons, of any employee number, name, and position - but NO "Teletubby Sympathizers" allowed!
 
 
 Add a recruitment function to your employee class that performs the following behaviour:
