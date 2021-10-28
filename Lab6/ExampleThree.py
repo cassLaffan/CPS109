@@ -4,10 +4,10 @@ class car:
     make, colour, price. Why does it have a "self"?
     Well, let's, instead, look at our method.
     '''
-    def __init__(self, m, colour, price):
+    def __init__(self, m, c, p):
         self.make = m
-        self.colour = colour
-        self.price = price
+        self.colour = c
+        self.price = p
     
     '''
     Notice how we have to call self again? And how there is only
@@ -18,8 +18,6 @@ class car:
 
     def age_price(self):
         self.price = self.price - 500
-
-
 
 def compare_price(car_one, car_two):
     return car_one.price == car_two.price
