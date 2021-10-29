@@ -7,7 +7,7 @@ This, in short: a built in class definition that lets
 you automatically test your code. You writ things this way,
 Python does the leg work for you.
 '''
-class my_tests(unittest.TestCase):
+class MyTests(unittest.TestCase):
     def test1(self):
         self.assertEqual(ExampleOne.mostfrequent([5, 2, 9, 2, 9, 1, 18, 9, 3]), 9)
     def test2(self):

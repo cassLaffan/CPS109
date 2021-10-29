@@ -24,9 +24,12 @@ def compare_price(car_one, car_two):
 
 if __name__ == "__main__":
     our_car = car("Honda Civic", "Blue", 12000)
+    our_car_2 = car("Honda Civic", "Red", 14000)
     print("Our car is a: " + our_car.make)
     print("The colour is: " + our_car.colour)
     print("It costs: " + str(our_car.price))
+
+    print(compare_price(our_car, our_car_2))
 
     '''
     Notice how when we call this method, that it has no arguments?
