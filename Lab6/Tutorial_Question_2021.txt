@@ -1,5 +1,5 @@
 '''
-Write an employee class. This class will contain four key pieces of data: employee name, employee number, employee
+Write an employee class. This class will contain three key pieces of data: employee name, employee number, employee
 position AND employee birthday. The birthday will be set to a default string of "1 Jan 1999". 
 
 
@@ -36,6 +36,9 @@ if __name__ == "__main__":
     print("Dwight's Position:", real_dwight.employee_pos)
     real_dwight.promotion("Assistant Regional Manager")
     print("Dwight's Position:", real_dwight.employee_pos)
+    print("Dwight's Birthday:", real_dwight.birthday)
+    real_dwight.set_birthday("8 May 1945")
+    print("Dwight's Birthday:", real_dwight.birthday)
 
 Example Output:
 "Dwight"s employee number: 69
@@ -44,6 +47,8 @@ Should be None: None
 "Dwight"s employee number: 42
 Dwight's Position: Assistant to the Regional Manager
 Dwight's Position: Assistant Regional Manager
+Dwight's Birthday: 1 Jan 1999
+Dwight's Birthday: 8 May 1945
 
 *** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
 

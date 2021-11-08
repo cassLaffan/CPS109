@@ -1,7 +1,0 @@
-'''
-Write a function that opens a file and prints out
-every other line in the file. Be sure to close it!
-
-def read_every_other_line(filename):
-    # Your code here.
-'''
