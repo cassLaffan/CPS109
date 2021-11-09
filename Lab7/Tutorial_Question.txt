@@ -16,8 +16,11 @@ Example Input/Output:
 grass
 
 >>> What animal are you looking for: Penguin
-None
+I don't know what a Penguin eats.
+>>> What does a Penguin eat: fish
 
+>>> What animal are you looking for: Penguin
+fish
 
 *** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
 
