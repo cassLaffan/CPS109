@@ -1,7 +1,7 @@
 # This file will loop and write a line to a file so long as the user wants it to.
 if __name__ == "__main__":
 
-    our_file = open("another_file.txt", "a") # w means you "write to it"
+    our_file = open("yet_another_file.txt", "w") # w means you "write to it"
 
     inp = ""
 

@@ -5,8 +5,8 @@ that stores the first word of the line as a key, and the second word the
 value for said key.
 
 Then, in the main block, have the user input a word. Search the dictionary
-for that word, and print off its value. If this key does not exist, prompt
-the user to add the key with a value.
+for that word, and print off its value. If this key does not exist, prompt the user
+to add the key with a value.
 
 The structure of your file should be in the form of functions and the main 
 block. We will not give you a grade until the file is in this format.

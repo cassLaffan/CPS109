@@ -21,7 +21,13 @@ if __name__ == "__main__":
 
             # This is the syntax for adding a new key-value pair to an existing dictionary
             # dictionary[key] = value
-            name_dict[inp] = emp_num
+            if inp in name_dict:
+                temp = name_dict[inp]
+                name_dict[inp] = []
+                name_dict[inp].append(temp)
+                name_dict[inp].append(emp_num)
+            else:
+                name_dict[inp] = emp_num
     
     print(name_dict)
 
