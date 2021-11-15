@@ -1,15 +1,18 @@
-import random
+import unittest
+# Notice how the FIRST THING I do in my program is import the necessary
+# library and I only import it once.
 
-def print_funny(choice):
-    our_weird_strings = ["----------", "+++++++++", "+_+_+_+_+_+_+_+_+_+_"]
+'''This example of bad programming practice involves us writing our
+tests AFTER designing our program. This is bad practice and is to be
+avoided. Always write your code to be black box tested.'''
 
-    for i in choice:
-        print(random.choice(our_weird_strings) + i)
+def our_function(a, b):
+    '''fnction mustlplies a and b then return c'''
+    c = a * b
+    return c
+
+class MyTests(unittest.TestCase):
+    pass
 
 if __name__ == "__main__":
-    ls = random.randint(0, 10)
-    choice_list = []
-    for i in range(ls):
-        choice_list.append("a" * i)
-    
-    print_funny(random.choice(choice_list))
+    unittest.main(exit=True)

@@ -1,0 +1,12 @@
+'''
+The following are the requirements for a program. You are to
+write the skeleton of the program and design tests for it. Do not
+write any further code than what a skeleton program would require
+and the test syntax.
+
+Design a program that keeps track of animals at a vet. Generally,
+pets will have names, chip IDs, owner(s), addresses, etc. They will
+also have had at least one procedure or check up in order to be kept
+track of at the vet. The program needs to be able to update animal
+information as need be.
+'''

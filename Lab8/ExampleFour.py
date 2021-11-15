@@ -1,22 +1,32 @@
+'''This is the program that accompanies the problem outlined at the
+end of this week's slides.'''
 
-'''
-Prompts the user for keys, then values.
-'''
-def make_dict():
-    inp = ""
-    # Syntax for creating a dictionary!
-    # Notice the squiggly brackets.
+'''What do we need? Well, since employees contain a lot of information,
+we will probably need an Employee class of some sort, with some helper
+functions.'''
 
-    our_dict = {}
-    while inp != "Stop!":
-        inp = input("Please enter a store: ")
-        inp_prod = input("Now please enter what product they sell: ")
-        # Creates a key and associated value
-        our_dict[inp] = inp_prod
-        inp = input("Would you like to continue? Type 'Stop!' to stop. ")
+class Employee:
+    '''Employee class that contains relevant information for an employee.'''
+    def __init__(self, name, emp_number, position, department, salary):
+        pass
 
-    return our_dict
+    def promotion(self, new_position):
+        pass
+
+'''Helper functions'''
+
+def employee_lookup(employee_list, employee_search):
+    '''Will look up an employee and return their information'''
+    pass
+
+def add_employee(employee_list):
+    '''Will prompt the user for information, create an employee and then add 
+    said employee to the employee list.'''
+    pass
+
+def delete_employee(employee_list, employee_name):
+    '''Deletes the specified employee from the list.'''
+    pass
 
 if __name__ == "__main__":
-    print(make_dict())
-    print("Goodbye!")
+    pass
