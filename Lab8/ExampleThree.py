@@ -16,6 +16,7 @@ class MyTests(unittest.TestCase):
 
 # There is a problem with the first line in the main. You should only
 # import once, and your imports should be at the top of the code.
+# Importing again could make things run extremely slow.
 if __name__ == "__main__":
     import unittest
     unittest.main(exit=True)
