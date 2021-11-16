@@ -1,6 +1,6 @@
 import unittest
 # Notice how the FIRST THING I do in my program is import the necessary
-# library and I only import it once.
+# library and I (should) only import it once.
 
 '''This example of bad programming practice involves us writing our
 tests AFTER designing our program. This is bad practice and is to be
