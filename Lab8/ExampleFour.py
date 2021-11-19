@@ -13,6 +13,9 @@ class Employee:
     def promotion(self, new_position):
         pass
 
+    def name_change(self, new_name):
+        pass
+
 '''Helper functions'''
 
 def employee_lookup(employee_list, employee_search):

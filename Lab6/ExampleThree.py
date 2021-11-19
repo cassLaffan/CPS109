@@ -24,6 +24,7 @@ def compare_price(car_one, car_two):
 
 if __name__ == "__main__":
     our_car = car("Honda Civic", "Blue", 12000)
+    our_car.price
     our_car_2 = car("Honda Civic", "Red", 14000)
     print("Our car is a: " + our_car.make)
     print("The colour is: " + our_car.colour)
