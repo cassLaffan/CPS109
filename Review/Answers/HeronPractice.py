@@ -1,7 +1,7 @@
 import unittest
 import math
 
-def q3(x, epsilon) :
+def heron(x, epsilon) :
     '''
     Returns guess, the approximate square root of x, such that 
     abs(guess**2 - x) < epsilon using Heron's algorithm, where 
@@ -14,17 +14,21 @@ def q3(x, epsilon) :
 
     return guess
 
-class myTests(unittest.TestCase):
+class HeronTests(unittest.TestCase):
+    '''
+    Remember, your test cases may vary. It is important to remember
+    that there are many functions at your disposal in this library.
+    '''
     def test0(self):
-        self.assertTrue(abs(q3(4, 0.1) - 2) <= 0.1)
+        self.assertTrue(abs(heron(4, 0.1) - 2) <= 0.1)
     def test1(self):
-        self.assertTrue(abs(q3(99, 0.1) - math.sqrt(99)) <= 0.1)
+        self.assertTrue(abs(heron(99, 0.1) - math.sqrt(99)) <= 0.1)
     def test2(self):
-        self.assertTrue(abs(q3(999, 0.1) - math.sqrt(999)) <= 0.1)
+        self.assertTrue(abs(heron(999, 0.1) - math.sqrt(999)) <= 0.1)
     def test3(self):
-        self.assertTrue(abs(q3(1, 0.1) - 1) <= 0.1)
+        self.assertTrue(abs(heron(1, 0.1) - 1) <= 0.1)
     def test4(self):
-        self.assertTrue(abs(q3(0.25, 0.01) - 0.5) <= 0.01)
+        self.assertTrue(abs(heron(0.25, 0.01) - 0.5) <= 0.01)
 
 if __name__=='__main__':
     unittest.main(exit=True)
