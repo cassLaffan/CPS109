@@ -42,15 +42,6 @@ def find_balance(s, l = 0, r = 0):
             check = True
         else:
             check = False
-    elif len(s) == 2:
-        if s == "{}":
-            check = True
-        elif s == "}{" and l == 1 and r == -1:
-            check = True
-        else:
-            check = False
-
-    # Now the recursive step.
     else:
         if s[0] == "{":
             l += 1
