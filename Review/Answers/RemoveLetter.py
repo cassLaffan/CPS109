@@ -6,20 +6,17 @@ def remove_letter(s, removable_letter) :
     Returns a string obtained by removing any intances of
     removable_letter in the string. If the string doesn't
     have any instances of removable_letter, it simply returns
-    the original string.
-
-    Should return a ValueError if the values aren't typed correctly.
-
-    remove_letter('blue', 'x') should return 'blue'
-    remove_letter(529, 'a') should raise ValueError
-    remove_letter('red', 'yz') should raise ValueError
-    remove_letter('', 'z') should return ''
-    remove_letter('x', 'z') should return 'x'
-    remove_letter('zz', 'z') should return ''
+    the original string. Returns a ValueError if the values
+    aren't typed correctly.
     '''
-    pass
+    try:
+        if len(removable_letter) > 1:
+            raise ValueError
+        return s.replace(removable_letter, '')
+    except Exception as error:
+        raise ValueError
 
-class myTests(unittest.TestCase):
+class RemoveTests(unittest.TestCase):
     def test1(self):
         self.assertEqual(remove_letter('blue', 'x'), 'blue')
     def test2(self):

@@ -1,5 +1,6 @@
 import unittest
 import Brackets
+import RecursiveBrackets
 
 '''
 For this question, assume you have a function called find_balance
@@ -22,7 +23,7 @@ abnormal (edge) cases. Do not include the two examples above.
 
 To call this function, you will use the syntax Brackets.find_balance(argument).
 '''
-
+'''
 class BracketTest(unittest.TestCase):
     def test1(self):
         self.assertEqual(Brackets.find_balance("{{}}"), True)
@@ -34,6 +35,19 @@ class BracketTest(unittest.TestCase):
         self.assertEqual(Brackets.find_balance("{}{}{}{}"), True)
     def test5(self):
         self.assertEqual(Brackets.find_balance("{{}}{}{{}}"), True)
+'''
+
+class BracketTest(unittest.TestCase):
+    def test1(self):
+        self.assertEqual(RecursiveBrackets.find_balance("{{}}"), True)
+    def test2(self):
+        self.assertEqual(RecursiveBrackets.find_balance("}}{{"), False)
+    def test3(self):
+        self.assertEqual(RecursiveBrackets.find_balance("}}}}"), False)
+    def test4(self):
+        self.assertEqual(RecursiveBrackets.find_balance("{}{}{}{}"), True)
+    def test5(self):
+        self.assertEqual(RecursiveBrackets.find_balance("{{}}{}{{}}"), True)
 
 if __name__ == "__main__":
     unittest.main(exit=True)

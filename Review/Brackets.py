@@ -1,3 +1,8 @@
+'''
+This file is just for the CreateTest.py file. You do not need
+to implement anything in this file.
+'''
+
 def find_balance(s):
     '''
     Takes a string of brackets as an argument. Will return

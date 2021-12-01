@@ -16,13 +16,13 @@ def even_addition(n) :
     return our_number
 
 class myTests(unittest.TestCase):
-    def test0(self):
-        self.assertEqual(even_addition(2), 20)
     def test1(self):
-        self.assertEqual(even_addition(1), 6)
+        self.assertEqual(even_addition(2), 20)
     def test2(self):
-        self.assertEqual(even_addition(0), 0)
+        self.assertEqual(even_addition(1), 6)
     def test3(self):
+        self.assertEqual(even_addition(0), 0)
+    def test4(self):
         self.assertEqual(even_addition(100), 37750)
 
 if __name__=='__main__':
