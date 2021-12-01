@@ -1,12 +1,13 @@
 import unittest
+'''
+Write a function that returns True if a and b are
+a distance greater than epsilon away from one another. For example:
+
+outside_of(5, 6, 2) -> False
+outside_of(5, 7, 1.5) -> True
+'''
 
 def outside_of(a, b, epsilon) :
-    '''
-    Returns True if a and b are a distance greater than epsilon
-    away from one another. For example:
-    outside_of(5, 6, 2) -> False
-    outside_of(5, 7, 1.5) -> True
-    '''
     pass
 
 class myTests(unittest.TestCase):

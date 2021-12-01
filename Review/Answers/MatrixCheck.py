@@ -3,8 +3,8 @@ import unittest
 def matrix_check(matrix) :
     '''
     Assumes that matrix is a 2D array of integers.
-    Returns True if the second last number of the second row occurs in
-    any other rows.
+    Returns True if the second last number of the
+    second row occurs in any other rows.
 
     For example, 
     matrix_check([[5, 6, 7, 2], [9, 8, 4, 22]]) -> False
@@ -12,9 +12,19 @@ def matrix_check(matrix) :
 
     Hint: use negative indicies for this one.
     '''
-    pass
+    our_check = matrix[1][-2]
+    conclusion = False
 
-class myTests(unittest.TestCase):
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            if i != 1 and j != len(matrix[i]) - 1 and matrix[i][j] == our_check:
+                conclusion = True
+                break # We do not need to go any further.
+    
+    return conclusion
+
+
+class MatrixTests(unittest.TestCase):
     def test1(self):
         m = [[5, 6, 7, 2], [9, 8, 4, 22]]
         self.assertFalse(matrix_check(m))
