@@ -1,20 +1,18 @@
 import unittest
-from unittest.case import TestCase
 '''
 Here is the simplest implementation of a recursive factorial function.
 There are five test cases, two of which are edge cases. Your answers
 may vary slightly. The commonality should be that all of your tests
 pass.
 '''
+z = 0
 
 def factorial(num):
-    # Base case is num == 0
-   if(num <= 1):
+    # factorial of n = n * (n-1)!
+    if num <= 1:
        return 1
-   else:
-       new_num = num * factorial(num - 1)
-       return new_num
-
+    return num * factorial(num-1)
+    print(z)
 
 class FacTest(unittest.TestCase):
     '''

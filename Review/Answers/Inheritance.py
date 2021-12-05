@@ -28,11 +28,14 @@ class Cat(Animal):
         self.is_brushed = False
     
     def __eq__(self, other):
-        return (super().__eq__(other)) and (self.eye_colour and other.eye_colour) and (self.fur_colour and other.fur_colour) and (self.is_brushed and other.is_brushed)
+        return (super().__eq__(other)) and (self.eye_colour == other.eye_colour) and (self.fur_colour == other.fur_colour) and (self.is_brushed == other.is_brushed)
     
     def brushie(self):
         self.is_brushed = True
         print(f"{self.name} has been brushed! (^._.^)")
+
+def is_good(one):
+    return one.brushie()
 
 if __name__ == "__main__":
     '''
@@ -44,5 +47,6 @@ if __name__ == "__main__":
     chaos = Cat("Chaos", 11, "Grey and white", "Yellow/Green")
 
     mischief.brushie()
+    is_good(mischief)
 
     print(mischief == chaos)
