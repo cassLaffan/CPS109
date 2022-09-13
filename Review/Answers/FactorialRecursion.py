@@ -5,14 +5,11 @@ There are five test cases, two of which are edge cases. Your answers
 may vary slightly. The commonality should be that all of your tests
 pass.
 '''
-z = 0
-
 def factorial(num):
     # factorial of n = n * (n-1)!
     if num <= 1:
        return 1
     return num * factorial(num-1)
-    print(z)
 
 class FacTest(unittest.TestCase):
     '''
