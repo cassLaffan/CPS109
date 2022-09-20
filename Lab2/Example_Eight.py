@@ -19,7 +19,8 @@ def if_bigger(x, y):
     
     return x
 
-if_bigger(5, 7)
-i = if_bigger(5, 3)
-if_bigger(4, 4)
-print(i)
+if __name__ == "__main__":
+    if_bigger(5, 7)
+    i = if_bigger(5, 3)
+    if_bigger(4, 4)
+    print(i)
