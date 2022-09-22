@@ -1,0 +1,14 @@
+'''
+Write a program that takes a user's input, then converts it to a letter
+grade. For example, 90-100 is an A+, 50-60 is a D, etc. The program will
+throw an error if the user does not enter a number in the range of 0 to
+100.
+
+Examples:
+
+>>> Enter your grade percentage: 90
+>>> You got an A+
+
+>>> Enter your grade percentage: 40
+>>> You got an F
+'''
