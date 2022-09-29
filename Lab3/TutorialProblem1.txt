@@ -12,6 +12,7 @@ Example:
 >>> Reverse alphabetical: ssrndCaaa
 >>> Enter a string: A string!
 >>> Alphabetical: Aginrst!
+>>> Reverse alphabetical: !tsrnigA
 >>> Enter a string: -1
 >>> Goodbye!
 
