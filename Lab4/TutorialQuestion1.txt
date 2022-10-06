@@ -1,0 +1,5 @@
+'''
+Write a function that takes a list of lists and returns a list of these lists sorted.
+The lists should be sorted by length first, then by the value in the last element of each
+list. Call the function in the main block.
+'''
