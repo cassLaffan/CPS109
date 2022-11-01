@@ -9,14 +9,21 @@ if __name__ == "__main__":
     # But if you try it with a string, it will throw an error:
     my_string = "This is a string"
     # my_string.append("!")
+    # Or a tuple...
+    my_tuple = (1, 4, 7, 2, -11)
+    #my_tuple.append(9)
 
     # This is all despite the fact that you can iterate through
-    # both a string and a list.
+    # both a string, a list and a tuple!
     for i in my_list:
         print(i)
 
     for j in my_string:
         print(j)
 
-    # Weird, right? That's because strings are immutable! You can't mess with them.
-    # The only thing you can do is create a new string.
+    for k in my_tuple:
+        print(k)
+
+    # Weird, right? That's because strings and tuples are immutable! You can't mess with them.
+    # The only thing you can do is create new instances of tuples and strings with the 
+    # assignment operator (=).
