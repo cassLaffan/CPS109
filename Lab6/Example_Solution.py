@@ -24,8 +24,8 @@ def tuple_sort(letter_tuple):
 
         # We also have list comprehension! I'll be going over that in week 9.
         # For now, feel free to read about it here: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
-        return tuple_sort([e for e in letter_tuple[1:] if e <= letter_tuple[0]]) +\
-             [letter_tuple[0]] + tuple_sort([e for e in letter_tuple[1:] if e > letter_tuple[0]])
+        return tuple_sort(tuple([e for e in letter_tuple[1:] if e <= letter_tuple[0]])) +\
+             tuple([letter_tuple[0]]) + tuple_sort(tuple([e for e in letter_tuple[1:] if e > letter_tuple[0]]))
 
 
 if __name__ == "__main__":

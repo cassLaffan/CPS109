@@ -1,4 +1,4 @@
-import Card
+import Card_Class as Card
 import random
 
 def draw_card(deck):
