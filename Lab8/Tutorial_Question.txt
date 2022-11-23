@@ -1,50 +1,53 @@
 '''
-The following are the requirements for a program. You are to
-write the skeleton of the program and design tests for it. Do not
-write any further code than what a skeleton program would require
-and the test syntax.
+Write a program that opens a_file.txt that is included in this folder
+in the GitHub repo. Read the file, line by line. Create a dictionary 
+that stores the first word of the line as a key, and the second word the
+value for said key.
 
-Design a program that keeps track of animals at a vet. Generally,
-pets will have names, chip IDs, owner(s), addresses, etc. They will
-also have had at least one procedure or check up in order to be kept
-track of at the vet. The program needs to be able to update animal
-information as need be.
+Then, in the main block, have the user input a word. Search the dictionary
+for that word, and print off its value. If this key does not exist, prompt the user
+to add the key with a value.
+
+The structure of your file should be in the form of functions and the main 
+block. We will not give you a grade until the file is in this format.
+
+Example Input/Output:
+>>> What animal are you looking for: Deer # Or however you want to structure this...
+grass
+
+>>> What animal are you looking for: Penguin
+I don't know what a Penguin eats.
+>>> What does a Penguin eat: fish
+
+>>> What animal are you looking for: Penguin
+fish
 
 *** Optional Bonus Question (NOT for marks - only do for interest if time!) ***
 
-Finally, the threat has been vanquished. Thanks to being able to decode their attack
-message in the last bonus problem, you anticipated the exact time of their strike,
-and the Teletubbies are no more. Shrek gave you a nice long hug for making his swamp
-a peaceful place again. However, you've heard the rumblings of a secret Teletubby 
-society that lives in the sewers with the Teenage Mutant Recursion Turtles, and so as
-one who is intimate with Teletubbies, you are tasked with creating a program that 
-describes the various attributes of a Teletubby. You must prepare the future 
-generation of CPS109 students, lest they rise again!
+Announcing the Winner of the Crossover Vote: Shrek! (with 16 votes)
 
-The following are the requirements for a program. You are to
-write the skeleton of the program and design tests for it. Do not
-write any further code than what a skeleton program would require
-and the test syntax.
+You know, the nice thing about my swamp is that it's MY SWAMP.
 
-Design a program skeleton that contains all important information about Teletubbies, 
-as well as some of the useful methods that you have used to defeat them in the past. 
-Generally, Teletubbies will have: names, colours, leaders, roles, and TVs.
-Note that TVs are themselves a class, which contain the attributes: size, channel,
-and communication_password. You should have 2 class methods that change a Teletubby's
-name and role, and 1 class method that can change a TV's channel. For helper methods,
-you should add a method that exorcises a Teletubby, one that zaps a Teletubby with
-the Teletubby Demagnetizer 3000, and one that hugs a Teletubby (with a force of over 
-9000 Newtons)!
-            ___              |\            .---.             _
-           ( o )            |'_\           \ V /            | |
-           _| |_           _| |_           _| |_           _| |_
-         .`_____`.       .`_____`.       .`_____`.       .`_____`.
-       |\ /     \ /|   |\ /     \ /|   |\ /     \ /|   |\ /     \ /|
-       |||  @ @  |||   |||  9 9  |||   |||  6 6  |||   |||  o o  |||
-       \_\   =   /_/   \_\   -   /_/   \_\   o   /_/   \_\  ._.  /_/
-        .-'-----'-.     .-'-----'-.     .-'-----'-.     .-'-----'-.
-       (_   ___   _)   (_   ___   _)   (_   ___   _)   (_   ___   _)
-         | |PO | |       ||LALA| |       ||TYWY| |       ||DPSY| |
-         |       |       |       |       |       |       |       |
-         (___|___)       (___|___)       (___|___)       (___|___)
+I got rid of those fairy-tale creatures, that Farquaad, and even that silly little donkey (he's off partying
+with his dragon lass), but recently I've noticed a new breed of pest encroaching on my swamp.
+
+They're furry, with wee little symbols on the tips of their heads, T.V.'s embedded in their chests, and creepy
+grins glued to their faces.
+
+I've noticed them scurrying about, and putting some weird letters in my storybook. Can you help me get rid
+of those extra characters, or see what they're saying? If you do, I'll be sure to make it worth your while!
+
+
+The Teletubbies have invaded Shrek's universe, and are ruining his storybook about princess Fiona by adding
+characters that don't belong in seemingly random places. However, the Teletubbies did not pay attention in their
+English classes, and can only add capital letters to the story. Your mission is as follows:
+
+1. Remove each out-of-place capital letter from the given SHREK_IS_LOVE.txt file (on GitHub), writing them to a new file:
+SHREK_IS_LIFE.txt. Each new sentence should begin with a capital letter, but ANY other capital letter is out of place 
+(there are no proper nouns in Shrek's universe). If there is an entirely blank line, (i.e. an empty newline), write a 
+space to the new file. At the end, read all of SHREK_IS_LIFE.txt to print the decoded Teletubby message.
+
+Recall: Sentences can end with: ['!', '?', '.']
+
+Bonus Prize: I will send you one of my favourite scenes from Shrek!
 '''

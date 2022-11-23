@@ -1,24 +1,22 @@
-def mostfrequent(L) :
-    '''
-    Assume that L is a non-empty list.
-    Return the number which is most frequent in the list.
-    For example, 
-    mostfrequent([5, 2, 9, 2, 9, 1, 18, 9, 3]) would return 9, since 
-    there are three 9's, and two 2's, and one of other values.
-    '''
-    maximum = 0
-    maximum_count = 1
+# Let's write a very basic recursive function.
+# Remember, a recursive function is just a function that calls itself
+# somewhere in its code.
 
-    for i in L:
-        temp_count = 0
-        for j in L:
-            if i == j:
-                temp_count =  temp_count + 1
-        if temp_count >= maximum_count:
-            maximum = i
-            maximum_count = temp_count
+# This function will do one of two things
+# If num is odd, it will recursively call itself on the next lowest number.
+# If the number is even, it will return a new number which is num * 2
+def our_recursion(num):
+    new_num = 0
+    if(num % 2 != 0):
+        new_num = our_recursion(num - 1)
+    else:
+        # Base case is an even num
+        new_num = num * 2
 
-    return maximum
+    return new_num
+
 
 if __name__ == "__main__":
-    print(mostfrequent([5, 2, 9, 2, 9, 1, 18, 9, 3]))
+
+    rec_call = our_recursion(3)
+    print(rec_call)

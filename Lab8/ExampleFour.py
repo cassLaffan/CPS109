@@ -1,35 +1,34 @@
-'''This is the program that accompanies the problem outlined at the
-end of this week's slides.'''
-
-'''What do we need? Well, since employees contain a lot of information,
-we will probably need an Employee class of some sort, with some helper
-functions.'''
-
-class Employee:
-    '''Employee class that contains relevant information for an employee.'''
-    def __init__(self, name, emp_number, position, department, salary):
-        pass
-
-    def promotion(self, new_position):
-        pass
-
-    def name_change(self, new_name):
-        pass
-
-'''Helper functions'''
-
-def employee_lookup(employee_list, employee_search):
-    '''Will look up an employee and return their information'''
-    pass
-
-def add_employee(employee_list):
-    '''Will prompt the user for information, create an employee and then add 
-    said employee to the employee list.'''
-    pass
-
-def delete_employee(employee_list, employee_name):
-    '''Deletes the specified employee from the list.'''
-    pass
+# This file shows you how to make a dictionary
+# and then look things up in it given a key value.
 
 if __name__ == "__main__":
-    pass
+    # This is how you declare an empty dictionary
+    # Dictionaries are mutable, much like lists, so you can
+    # add stuff to it as need be.
+    name_dict = {}
+
+    inp = "-1"
+    emp_num = ""
+
+    while inp != "":
+        inp = str(input("Please enter an employee name. To exit, press 'enter' with no name.\n"))
+        if inp == "":
+            break
+        else:
+            emp_num = str(input("Now please enter their employee number.\n"))
+            while emp_num == "":
+                emp_num = str(input("Bad input! Please input an employee number.\n"))
+
+            # This is the syntax for adding a new key-value pair to an existing dictionary
+            # dictionary[key] = value
+            if inp in name_dict:
+                temp = name_dict[inp]
+                name_dict[inp] = []
+                name_dict[inp].append(temp)
+                name_dict[inp].append(emp_num)
+            else:
+                name_dict[inp] = emp_num
+    
+    print(name_dict)
+
+    print("Goodbye")

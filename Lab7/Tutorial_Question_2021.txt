@@ -1,5 +1,5 @@
 '''
-Write an employee class. This class will contain three key pieces of data: employee name, employee number, employee
+Write an employee class. This class will contain four key pieces of data: employee name, employee number, employee
 position AND employee birthday. The birthday will be set to a default string of "1 Jan 1999". 
 
 
