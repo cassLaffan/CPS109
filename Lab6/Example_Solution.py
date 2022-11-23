@@ -21,6 +21,9 @@ def tuple_sort(letter_tuple):
 
         # Second, I am concatonating two tuples. Remember, + allows two tuples to be merged,
         # producing a new one.
+
+        # We also have list comprehension! I'll be going over that in week 9.
+        # For now, feel free to read about it here: https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
         return tuple_sort([e for e in letter_tuple[1:] if e <= letter_tuple[0]]) +\
              [letter_tuple[0]] + tuple_sort([e for e in letter_tuple[1:] if e > letter_tuple[0]])
 
