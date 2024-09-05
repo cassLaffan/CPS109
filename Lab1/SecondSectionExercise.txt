@@ -1,6 +1,0 @@
-'''
-Write a program that outputs the volume and surface area of a rectangular prism, given its width,
-height and length. The output should be in the following format:
-
-The volume of your prism is 1000 and your surface area is 600.
-'''

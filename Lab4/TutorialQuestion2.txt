@@ -1,8 +1,0 @@
-'''
-Write a function that finds the longest running chain of numbers in a list. 
-Return a new list comprised of the numbers, sorted, in the longest running chain(s).
-
-Example:
-
-my_function([1, 1, 1, 1, 0, 2, 3, 0, 0, 0, 0]) returns [0,1]
-'''

@@ -1,6 +1,0 @@
-'''
-Your job is to write code that will calculate the surface area, circumference and volume of a sphere,
-given a radius. Have the output of your program print out in the following format:
-
-Your sphere has a surface area of 314.416, a circumference of 314.16 and a volume of 523.
-'''
