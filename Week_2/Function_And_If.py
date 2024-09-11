@@ -3,9 +3,6 @@
 
 # This function will just compare its two arguments, x and y.
 def if_bigger(x, y):
-    # If you have a logical set of checks that flow naturally from one another,
-    # first you start with "if". This one is always necessary because it tells the computer
-    # that any other checks following it are only if the first condition isn't met.
     if (x > y):
         print("X is bigger than Y.")
     # Elif is short for "else if". This indicates to the computer that if the previous condition
