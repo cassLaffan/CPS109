@@ -1,7 +1,6 @@
 # Let's do a basic example of exhaustive enumeration
 # (also known as brute force!) through a very basic list.
 
-
 # What this function will do is take two arguments:
 # First, a list, then the integer you want to find in the list
 # it will return a list of the indicies where new_num occurs.

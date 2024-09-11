@@ -1,4 +1,5 @@
-# Let's take example one and change it so that the list is user entered.
+# Let's take the funcion_in_loop example and change it 
+# so that the list is user entered.
 
 def check_every_item(my_list, new_num):
 
@@ -17,7 +18,6 @@ def check_every_item(my_list, new_num):
 if __name__ == "__main__":
 
     new_list = []
-
     inp = 0
 
     while inp != -1:
