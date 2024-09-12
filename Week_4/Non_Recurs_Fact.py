@@ -11,9 +11,6 @@ def factorial(num):
 
     return fact_num
 
-    y = 9
-    print(y)
-
 if __name__ == "__main__":
     inp = input("What number should we calculate the factorial for?\n")
     x = factorial(int(inp))
