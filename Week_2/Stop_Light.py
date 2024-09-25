@@ -3,21 +3,20 @@ This program will implement a conditional stop light.
 '''
 
 def stop_colour(light):
-    if light == "Red" or light == "red":
+    if light.lower() == "red":
         print("Stop!")
-    elif light == "Yellow" or light == "yellow":
+    elif light.lower() == "yellow":
         print("Slow down!")
-    elif light == "Green" or light == "green":
+    elif light.lower() == "green":
         print("Go!")
     else:
         print("Invalid light colour, contact the city.")
 
 if __name__ == '__main__':
-    inp_one = input("What colour is our light? ")
-    stop_colour(inp_one)
-    inp_one = input("Now what is the light colour? ")
-    stop_colour(inp_one)
-    inp_one = input("What is the colour now? ")
-    stop_colour(inp_one)
+    user_input = ""
 
+    while user_input.lower() != "end":
+        user_input = str(input("What colour is our light? "))
+        if user_input.lower() != "end":
+            stop_colour(user_input)
     
