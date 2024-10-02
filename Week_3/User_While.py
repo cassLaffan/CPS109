@@ -10,8 +10,6 @@ def string_list():
 
 if __name__ == '__main__':
     local_list = string_list()
-    lst_len = len(local_list)
-    iterator = 0
-    while iterator < lst_len:
-        print("A movie is: ", local_list[iterator])
-        iterator += 1
+    # Enumerate allows us to get an index-value pair from a list or tuple
+    for iterator, movie in enumerate(local_list):
+        print(f"Movie number {iterator + 1} is {movie}") # Another f string!

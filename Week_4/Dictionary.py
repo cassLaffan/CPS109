@@ -10,6 +10,11 @@ if __name__ == "__main__":
     # Using the dict constructor
     car = dict(make='Toyota', model='Camry', year=2022)
 
+    # Attempting to use | on two dictionaries
+    new_dict = person | car
+
+    print(new_dict)
+
     # Accessing values
     print(person['name'])
     print(person['age'])
