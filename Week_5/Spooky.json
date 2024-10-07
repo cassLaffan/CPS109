@@ -1,0 +1,23 @@
+{
+    "haunted_locations": [
+      {
+        "name": "The Old Oak Tree",
+        "location": "Creepy Hollow",
+        "ghosts": 3,
+        "haunting": true
+      },
+      {
+        "name": "Abandoned Asylum",
+        "location": "Darkness Falls",
+        "ghosts": 7,
+        "haunting": true
+      },
+      {
+        "name": "Phantom Lake",
+        "location": "Whispering Woods",
+        "ghosts": 0,
+        "haunting": false
+      }
+    ]
+  }
+  

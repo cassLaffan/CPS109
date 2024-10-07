@@ -11,4 +11,4 @@ def factorial(num):
        return new_num
 
 if __name__ == "__main__":
-    print("{}! = {}".format(5, factorial(5)))
+    print(f"{5}! = {factorial(5)}")
