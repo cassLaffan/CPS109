@@ -4,7 +4,7 @@
 
 print(True and False) # Will return False because the second condition is false!
 
-print(True and True) # Will return True because both conditions are true!
+print(not(True) and True) # Will return False because of the negation.
 
 # You can assign these to variables like any other datatype.
 x = False
