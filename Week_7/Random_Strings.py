@@ -1,4 +1,8 @@
 import random
+'''
+Here, we will practice more with the random library. We're taking
+a random choice out of an iterable!
+'''
 
 def print_funny(choice):
     our_weird_strings = ["----------", "+++++++++", "+_+_+_+_+_+_+_+_+_+_"]
