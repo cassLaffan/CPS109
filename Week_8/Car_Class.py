@@ -19,16 +19,18 @@ class car:
     def age_price(self):
         self.price = self.price - 500
 
+
+    def __str__(self):
+        return f"Car(make='{self.make}', colour='{self.colour}', price={self.price})"
+
 def compare_price(car_one, car_two):
     return car_one.price == car_two.price
 
 if __name__ == "__main__":
     our_car = car("Honda Civic", "Blue", 12000)
-    our_car.price
     our_car_2 = car("Honda Civic", "Red", 14000)
-    print("Our car is a: " + our_car.make)
-    print("The colour is: " + our_car.colour)
-    print("It costs: " + str(our_car.price))
+    print(our_car)
+    print(our_car_2)
 
     print(compare_price(our_car, our_car_2))
 
