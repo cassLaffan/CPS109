@@ -1,9 +1,11 @@
 # Function to prompt the user for key-value pairs
 def get_entries(entries):
-    while True:
+    flag = True
+    while flag:
         key = input("Enter the key (or 'done' to stop): ")
         if key.lower() == 'done':
-            break
+            flag = False
+            continue
         value = input(f"Enter the value for key '{key}': ")
         entries.append((key, value))
 
