@@ -1,8 +1,7 @@
-
 if __name__ == "__main__":
     # String Comparison Examples
-    str1 = "apple"
-    str2 = "banana"
+    str1 = "tina" 
+    str2 = "jack"
 
     print(str1 == str2)  # False
     print(str1 != str2)  # True

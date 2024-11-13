@@ -18,4 +18,29 @@ elements are pairwise order comparable with each other.
 '''
 
 def first_preceded_by_smaller(items, k=1):
-    pass
+    count_value = 0
+    return_value = None
+
+    for i in range(k, len(items)):
+        count_value = 0
+        for j in range(i):
+            if(items[j] < items[i]):
+                count_value += 1
+        if(count_value >= k):
+            return_value = items[i]
+            break
+
+    return return_value
+
+if __name__ == "__main__":
+    lst = [4, 4, 5, 6]
+    print(first_preceded_by_smaller(lst, 2))
+
+    lst_new = [42, 99, 16, 55, 7, 32, 17, 18, 73]
+    print(first_preceded_by_smaller(lst_new, 3))
+
+    lst_string = ['bob', 'carol', 'tina', 'alex', 'jack', 'emmy', 'tammy', 'sam', 'ted']
+    print(first_preceded_by_smaller(lst_string, 4))
+
+    long_lst = [9, 8, 7, 6, 5, 4, 3, 2, 1, 10]
+    print(first_preceded_by_smaller(long_lst))
