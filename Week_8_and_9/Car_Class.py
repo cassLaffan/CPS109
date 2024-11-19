@@ -1,4 +1,8 @@
-class car:
+class Vehicle:
+    def start_engine(self):
+        print("Starting the engine...")
+
+class car(Vehicle):
     '''
     This is a very basic class. All it has is three properties:
     make, colour, price. Why does it have a "self"?
@@ -19,6 +23,9 @@ class car:
     def age_price(self):
         self.price = self.price - 500
 
+    # Overriding the parent function
+    def start_engine(self):
+        print("We're starting this engine instead!")
 
     def __str__(self):
         return f"Car(make='{self.make}', colour='{self.colour}', price={self.price})"
@@ -29,8 +36,9 @@ def compare_price(car_one, car_two):
 if __name__ == "__main__":
     our_car = car("Honda Civic", "Blue", 12000)
     our_car_2 = car("Honda Civic", "Red", 14000)
-    print(our_car)
-    print(our_car_2)
+
+    # Calling the parent class' function
+    our_car.start_engine()
 
     print(compare_price(our_car, our_car_2))
 
