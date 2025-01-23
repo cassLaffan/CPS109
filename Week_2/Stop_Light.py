@@ -1,22 +1,16 @@
-'''
-This program will implement a conditional stop light.
-'''
+def light_switcher(user_input):
+	print("Running the function!")
+	if user_input == "red" or user_input == "Red":
+		print("Stop!")
+	elif user_input == "yellow" or user_input == "Yellow":
+		print("Speed up!")
+	elif user_input == "green" or user_input == "Green":
+		print("Go!")
+	else:
+		print("Your light is broken.")
 
-def stop_colour(light):
-    if light.lower() == "red":
-        print("Stop!")
-    elif light.lower() == "yellow":
-        print("Slow down!")
-    elif light.lower() == "green":
-        print("Go!")
-    else:
-        print("Invalid light colour, contact the city.")
-
-if __name__ == '__main__':
-    user_input = ""
-
-    while user_input.lower() != "end":
-        user_input = str(input("What colour is our light? "))
-        if user_input.lower() != "end":
-            stop_colour(user_input)
-    
+if __name__ == "__main__":
+	uinp = str(input("What colour is the light? Please do not use all caps. "))
+	light_switcher(uinp)
+	uinp_two = str(input("What colour is the light now? Please do not use all caps. "))
+	light_switcher(uinp_two)
