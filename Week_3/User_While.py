@@ -1,4 +1,3 @@
-
 def string_list():
     str_lst = []
     user_input = ""
