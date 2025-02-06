@@ -1,20 +1,9 @@
-def string_list_func(lst):
-	# Getting the length of our list
-	lst_len = len(lst)
-	count = 0
-
-	while count < lst_len:
-		print(lst[count])
-		count+=1
-
 if __name__ == "__main__":
-	user_input = str(input("Enter a word that isn't 'end': "))
-	user_list = []
+	movies = []
+	user_input = str(input("Enter some of your favourite movies! "))
+	while user_input.lower() != "exit":
+		movies.append(user_input)
+		user_input = str(input("Enter another movie. "))
 
-	while user_input.lower() != "end":
-		user_list.append(user_input)
-		user_input = str(input("Enter a word, it can be 'end': "))
-
-	string_list_func(user_list)
-
-	print("Goodbye!")
+	for i, movie in enumerate(movies):
+		print(f"Your number {i + 1} movie is {movie}")

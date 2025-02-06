@@ -14,7 +14,7 @@ print(var_three[0])
 print(var_three[-1])
 print(var_three[3])
 
-sliced_variable = var_five[2:10:2]
+sliced_variable = var_five[2:10]
 print(sliced_variable)
 
 str_one = "apple"
