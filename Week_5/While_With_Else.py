@@ -18,4 +18,4 @@ if __name__ == "__main__":
 			continue
 		print(f"The fruit at index {count} is {new_list[count]}")
 	else:
-		print("Finished the fruit while loop!")
+		print("Finished the fruit loop!")

@@ -9,13 +9,6 @@ iterable (such as a range, another list, etc.)
 if __name__ == "__main__":
 	# We cannot escape the fruit list
 	fruit_list = ["Strawberry", "Blueberry", "Grape", "Banana"]
-	x = 10
-
-	for number in range(x, 0, -1):
-		print(number)
-
-	for index, fruit in enumerate(fruit_list):
-		print(f"Index: {index}", f" Fruit: {fruit}")
 
 	# List Comprehensions require an expression that evaluates
 	# then populates each element of your name list.
