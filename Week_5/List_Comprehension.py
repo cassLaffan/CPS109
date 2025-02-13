@@ -15,5 +15,5 @@ if __name__ == "__main__":
 	new_list = [fruit.upper() for fruit in fruit_list]
 	print(new_list)
 
-	second_new_list = [num * 10 for num in range(10, -1, -1)]
+	second_new_list = [num * 10 for num in range(10)]
 	print(second_new_list)
