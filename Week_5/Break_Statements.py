@@ -1,4 +1,3 @@
-
 def find_element_in_list(required, ls):
 	for item in ls:
 		# the item we're looking for
