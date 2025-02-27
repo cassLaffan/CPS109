@@ -1,4 +1,3 @@
-
 if __name__ == "__main__":
     # Creating a dictionary
     grade_dict = {"John" : [99, 86, 90, 80],
@@ -6,7 +5,7 @@ if __name__ == "__main__":
                   "Harsimran" : [60, 99, 79, 100],
                   "Jatin" : [98, 99, 100, 80]
                   }
-    
+
     # Adding new key-value pairs to the dictionary
     grade_dict["Yanis"] = [80, 81, 79, 90]
     grade_dict["Moaed"] = [85, 85, 85, 85]
@@ -16,4 +15,3 @@ if __name__ == "__main__":
 
     for key in grade_dict:
         print(key, "'s grades are: ", grade_dict[key])
-    
