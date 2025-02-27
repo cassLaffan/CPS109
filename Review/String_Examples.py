@@ -15,3 +15,9 @@ if __name__ == "__main__":
     print(split_string)
     joined_string = "_".join(split_string)
     print(joined_string)
+
+    print(new_string[::-1])
+
+    print(joined_string + str(10))
+
+    int_a = int("10")
