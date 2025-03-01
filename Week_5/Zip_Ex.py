@@ -6,3 +6,6 @@ if __name__ == "__main__":
 
 	# Needs to be cast as a list in order to be printed in a meaningful fashion
 	print(list(zip(list_one, list_two, list_three)))
+
+	new_list = [a + b for a, b in list(zip(list_one, list_two))]
+	print(new_list)
