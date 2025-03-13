@@ -11,9 +11,6 @@ def print_funny(choice):
         print(random.choice(our_weird_strings) + i)
 
 if __name__ == "__main__":
+    random.seed()
     ls = random.randint(0, 10)
-    choice_list = []
-    for i in range(ls):
-        choice_list.append("a" * i)
-    
-    print_funny(random.choice(choice_list))
+    print_funny(random.choice("hello"))
