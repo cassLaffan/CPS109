@@ -13,6 +13,7 @@ if __name__ == "__main__":
 	# return_func stores the inner() function
 	return_func = outer()
 	# And we can call the returned function!
+	print(return_func)
 	print(return_func("wow!")) 
 	var = return_func("Cass")
 	print(var)

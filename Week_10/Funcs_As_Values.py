@@ -12,4 +12,3 @@ if __name__ == "__main__":
 	greet_func = greet
 	# Calling the function through the variable
 	print(greet_func())
-	print(greet())

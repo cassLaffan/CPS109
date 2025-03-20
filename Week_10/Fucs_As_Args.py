@@ -7,12 +7,11 @@ passed as arguments in Python can literally act as functions!
 
 def execute(func, value):
 	# See? We're calling a function passed as an argument!
-	return func(value)
+	x = func(value)
+	return x
 
 def square(x):
 	return x * x
 
 if __name__ == "__main__":
-	a_variable = square
-	x = 5
-	print(execute(a_variable, x))
+	print(execute(square, 5))
