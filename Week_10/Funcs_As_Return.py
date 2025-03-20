@@ -9,8 +9,10 @@ def outer():
 	# Note that we can return the function by name?
 	return inner
 
-
 if __name__ == "__main__":
+	# return_func stores the inner() function
 	return_func = outer()
 	# And we can call the returned function!
 	print(return_func("wow!")) 
+	var = return_func("Cass")
+	print(var)

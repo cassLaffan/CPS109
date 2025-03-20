@@ -13,4 +13,6 @@ def square(x):
 	return x * x
 
 if __name__ == "__main__":
-	print(execute(square, 5))
+	a_variable = square
+	x = 5
+	print(execute(a_variable, x))

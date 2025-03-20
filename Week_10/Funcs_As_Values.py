@@ -11,4 +11,5 @@ if __name__ == "__main__":
 	# Assigning a function to a variable
 	greet_func = greet
 	# Calling the function through the variable
-	print(greet_func()) 
+	print(greet_func())
+	print(greet())

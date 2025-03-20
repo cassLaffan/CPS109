@@ -14,3 +14,5 @@ if __name__ == "__main__":
 	operations = [add, multiply]
 	# Calling the first function by index, giving it arguments
 	print(operations[0](2, 3))
+	var = operations[1](2, 6)
+	print(var)
