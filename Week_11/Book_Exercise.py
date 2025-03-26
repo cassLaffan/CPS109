@@ -1,33 +1,42 @@
 class Book:
-    def __init__(self, bt=None, au=None, pd=None, pl=None):
-        '''This is our Book constructor!'''
-        self.book_title = bt
-        self.author = au
-        self.pub_date = pd
-        self.page_length = pl
-        self.current_page = 0
+	# Total books in the library
+	total_books = 0
 
-    def __str__(self):
-        return f"Title: {self.book_title} \nAuthor: {self.author}\n"
+	def __init__(self, t, a, g, p, pl):
+		self.title = t
+		self.author = a
+		self.genre = g
+		self.publisher = p
+		self.page_length = pl
+		Book.total_books = Book.total_books + 1
 
-    def mark_page(self, pages_read):
-        self.current_page += pages_read
+	def __str__(self):
+		return f"Title: {self.title} \nAuthor: {self.author}"
 
-    @property
-    def peak_next_page(self):
-        return self.current_page + 1
+	def change_author(self, new_author):
+		self.author = new_author
+	
+	def double_page_length(self):
+		self.page_length = self.page_length * 2
+	
+	def reset_count(self):
+		Book.total_books = 0
+
+	@property
+	def maybe_double(self):
+		return self.page_length * 2
 
 if __name__ == "__main__":
-    our_first_book = Book("War and Peace", "Tolstoy", "Jan 1 1867", 600)
+	a_book = Book("War and Peace", "Tolstoy",
+			   "Drama", "Tsar", 1000)
+	second_book = Book("Metamorphosis", "Kafka",
+					"Drama", "Penguin House", 100)
+	print(a_book)
 
-    print(our_first_book, end="")
-    print(f"Our current page is: {our_first_book.current_page}")
-
-    our_first_book.mark_page(200)
-
-    print(f"Our current page is: {our_first_book.current_page}")
-
-    print(f"The next page is: {our_first_book.peak_next_page}")
-
-    print(f"Our current page is: {our_first_book.current_page}")
-
+	print(a_book.page_length)
+	a_book.change_author("Cassandra Laffan")
+	print(a_book)
+	print(a_book.maybe_double)
+	print(Book.total_books)
+	a_book.reset_count()
+	print(Book.total_books)
