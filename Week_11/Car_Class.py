@@ -39,16 +39,17 @@ if __name__ == "__main__":
 
     # Calling the parent class' function
     our_car.start_engine()
-
+'''
     print(compare_price(our_car, our_car_2))
 
-    '''
+
     Notice how when we call this method, that it has no arguments?
     Well, python actuall reads it as: age_price(our_car) (sorta).
     The "self" is the current object we're dealing with!
-    '''
+
     our_car.age_price()
     print("It now costs: " + str(our_car.price))
 
     our_car.age_price()
     print("It now costs: " + str(our_car.price))
+'''

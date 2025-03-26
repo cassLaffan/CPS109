@@ -1,15 +1,15 @@
 class Book:
 	# Total books in the library
 	total_books = 0
-
-	def __init__(self, t, a, g, p, pl):
+    # Added default arguments, meaning we can have an empty object
+	def __init__(self, t = None, a = None, g = None, p = None, pl = None):
 		self.title = t
 		self.author = a
 		self.genre = g
 		self.publisher = p
 		self.page_length = pl
 		Book.total_books = Book.total_books + 1
-
+		
 	def __str__(self):
 		return f"Title: {self.title} \nAuthor: {self.author}"
 
