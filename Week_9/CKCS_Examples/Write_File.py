@@ -9,7 +9,7 @@ if __name__ == "__main__":
 	
 	# a is for append, which will tack stuff onto the end of a file!
 	with open('topics.txt', 'a') as output_file:
-		output_file.write(" is fun!")
+		output_file.write(" is rewarding!")
 
 	with open('topics.txt', 'r') as output_file:
 		contents = output_file.read()

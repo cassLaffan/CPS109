@@ -10,6 +10,7 @@ if __name__ == "__main__":
 	# Reads everything from the file into string
 	contents = my_file.read()
 	content_list = contents.split("\n")
+	print(content_list)
 	for line in content_list:
 		print(line)
 

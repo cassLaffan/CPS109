@@ -18,6 +18,8 @@ if __name__ == "__main__":
 	# Saving and showing the graph
 	# This my take a moment
 	plt.savefig('linechart')
+	plt.xlabel("Value")
+	plt.ylabel("Frequency")
 	plt.show()
 
 	# Messing with formatting!

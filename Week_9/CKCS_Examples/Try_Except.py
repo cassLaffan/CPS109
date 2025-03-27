@@ -9,7 +9,11 @@ if __name__ == "__main__":
 		# Attempt to convert user input to an integer
 		number = int(input("Enter a number: "))
 		print(f"You entered the number: {number}")
-
 	except ValueError:
 		# Handle the case where input is not a valid integer
 		print("That's not a valid number! Please try again.")
+	except TypeError:
+		print("How did you even get this??")
+	# Finally will run regardless of whether an exception happens
+	finally:
+		print("This is the finally block!")
